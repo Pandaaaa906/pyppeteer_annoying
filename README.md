@@ -4,13 +4,15 @@ Some shortcuts for pyppeteer
 This is because the future plan of pyppeteer:
 >Future Plan<br>
 > 1. Catch up development of puppeteer<br>
-> * **Not intend to add original API which puppeteer does not have**
+>   * **Not intend to add original API which puppeteer does not have**
 >
 
-## Undetected page
-Preload script to hide traces of puppeteer browser.<br>
-`undetected_page` accept same arguments of `pyppeteer.launch`, like `executablePath`, `headless`, etc.<br>
-by default:
+## Undetected browser
+`undetected_page` meant to return an undetectable page:
+`undetected_page` accepts same arguments of `pyppeteer.launch`, like `executablePath`, `headless`, etc.<br>
+Additionally, it also accepts `view_port` as a dict, to control the size of the browser.<br>
+
+By default:
 ```
 headless=True
 ignoreHTTPSErrors=True
