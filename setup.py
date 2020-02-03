@@ -13,4 +13,5 @@ setup(
     package_data={
         'pyppeteer_annoying': ['js/preload.js', ],
     },
+    install_requires=['pyppeteer'],
 )
