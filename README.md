@@ -8,7 +8,7 @@ This is because the future plan of pyppeteer:
 >
 
 ## Undetected browser
-`undetected_page` meant to return an undetectable page:
+`undetected_page` meant to return an undetectable page.<br>
 `undetected_page` accepts same arguments of `pyppeteer.launch`, like `executablePath`, `headless`, etc.<br>
 Additionally, it also accepts `view_port` as a dict, to control the size of the browser.<br>
 
